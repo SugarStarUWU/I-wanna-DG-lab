@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>I wanna DG-LAB</AssemblyName>
+    <Product>I wanna DG-LAB</Product>
+    <Title>I wanna DG-LAB</Title>
+    <ApplicationIcon>Assets/app.ico</ApplicationIcon>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="QRCoder" Version="1.8.0" />
+    <EmbeddedResource Include="Coyote/official-waveforms.json" />
+    <EmbeddedResource Include="Assets/app.ico" />
+  </ItemGroup>
+</Project>
